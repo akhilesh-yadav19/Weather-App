@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App</title>
+    <link rel="stylesheet" href="custom.css" />
+
+    <style>
+        .navbar{
+            background-color: black;
+            border-radius: 30px;
+        }
+        .navbar ul{
+            overflow: auto;
+        }
+        .navbar li{
+            list-style: none;
+            float: left;
+            padding: 15px 20px;
+        }
+        .navbar li a{
+            text-decoration: none;
+            color: white;
+            padding: 3px 3px;
+        }
+
+        .navbar li a:hover{
+            color: cyan;
+        }
+
+        /* .lnk:hover{
+            color: cyan;
+        } */
+        .search{
+            float: right;
+            padding: 10px 20px;
+        }
+        .navbar input{
+            border-radius: 15px;
+            border: none;
+            padding: 4px 15px;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar">
+        <ul>
+            <li><a href="" class="lnk">Akul Chopra</a></li>
+            <li><a href="" class="lnk">Amarjit Singh</a></li>
+            <li><a href="" class="lnk">Akhilesh Yadav</a></li>
+            <li><a href="" class="lnk">Anmol Saini</a></li>
+            <div class="search">
+                <input type="text" id="search" placeholder="Search">
+            </div>
+        </ul>
+    </nav>
+    <main>
+        <div class="row" style="text-align: center;">
+            <form action="">
+                <input type="search" id="search" placeholder="Search by city name">
+            </form>
+        </div>
+        <div class="row" id="weather">
+            <!-- <div>
+                <img src="https://openweathermap.org/img/wn/04n@2x.png" alt="">
+            </div>
+            <div>
+                <h2>32 ℃</h2>
+                <h4> Clear </h4>
+            </div> -->
+        </div>
+    </main>
+    <script src="app.js"></script>
+</body>
+
+</html>
